@@ -1,90 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18284669367"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18284669367');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krivo Contabilidade Digital</title>
-    <style>
-        :root {
-            --primary: #0F172A;
-            --secondary: #2563EB;
-            --accent: #10B981;
-            --text: #334155;
-            --bg: #F8FAFC;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
-        body { background-color: var(--bg); color: var(--text); line-height: 1.6; padding: 0; margin: 0; }
-        
-        .hero { background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); color: white; padding: 80px 20px; text-align: center; }
-        .hero h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 20px; color: #F1F5F9; max-width: 800px; margin-left: auto; margin-right: auto; }
-        .hero p { font-size: 1.2rem; max-width: 650px; margin: 0 auto 35px; color: #94A3B8; }
-        
-        .btn { display: inline-block; background-color: var(--accent); color: white; padding: 16px 36px; font-weight: bold; text-decoration: none; border-radius: 8px; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s; }
-        .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px rgba(0,0,0,0.2); background-color: #059669; }
-        
-        .section-title { text-align: center; margin: 60px 0 30px; font-size: 2rem; color: var(--primary); }
-        
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1140px; margin: 0 auto; padding: 0 20px; }
-        .card { background: white; padding: 35px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 5px solid var(--secondary); display: flex; flex-direction: column; justify-content: space-between; }
-        .card h3 { margin-bottom: 15px; color: var(--primary); font-size: 1.4rem; }
-        .card p { font-size: 1rem; color: #475569; margin-bottom: 25px; flex-grow: 1; }
-        .card .btn-sm { display: block; text-align: center; background: #E0F2FE; color: var(--secondary); padding: 12px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 0.95rem; transition: background 0.2s; }
-        .card .btn-sm:hover { background: var(--secondary); color: white; }
-        
-        .about { max-width: 800px; margin: 70px auto; padding: 0 20px; text-align: center; }
-        .about p { font-size: 1.1rem; color: #475569; margin-bottom: 20px; }
-        
-        footer { background-color: #0F172A; color: #94A3B8; text-align: center; padding: 40px 20px; font-size: 0.9rem; margin-top: 80px; border-top: 1px solid #334155; }
-        footer p { margin-bottom: 8px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HERO SECTION -->
+    <header>
+        <div class="container">
+            <img src="watermarked_img_14360406489538663535.png" alt="Krivo Contabilidade" class="logo">
+        </div>
+    </header>
+
     <section class="hero">
-        <h1>Economize impostos legalmente e mantenha sua contabilidade 100% segura.</h1>
-        <p>Atendimento digital especializado para Infoprodutores, Profissionais de TI e Clínicas de Saúde de todo o Brasil diretamente de Goiânia.</p>
-        <a href="https://wa.me/5562996906707?text=Olá!%20Acessei%20o%20site%20da%20Krivo%20e%20gostaria%20de%20uma%20consultoria%20contábil%20para%20o%20meu%20caso." target="_blank" class="btn">Quero Regularizar Meu Negócio</a>
+        <div class="container">
+            <h1>Contabilidade Digital Especializada para Profissionais de TI</h1>
+            <p>Abra seu CNPJ totalmente grátis, reduza seus impostos com o Fator R e tenha o suporte de specialists no mercado Tech.</p>
+            <a href="https://wa.me/5562996906707" class="btn-whatsapp" target="_blank">Falar com Especialista no WhatsApp</a>
+        </div>
     </section>
 
-    <!-- NICHOS DE ATUAÇÃO -->
-    <h2 class="section-title">Especialidades Contábeis</h2>
-    <div class="grid">
-        <div class="card">
-            <div>
-                <h3>Profissionais de TI</h3>
-                <p>Desenvolvedores, designers e gestores de tráfego. Evite a mordida de 27,5% na Pessoa Física. Aplicamos o Fator R de forma estratégica no Simples Nacional para você pagar a partir de apenas 6% de imposto.</p>
+    <section class="servicos">
+        <div class="container">
+            <h2>Por que escolher a Krivo?</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Redução de Impostos</h3>
+                    <p>Planejamento focado no Fator R para você pagar a partir de apenas 6% de imposto no Simples Nacional.</p>
+                </div>
+                <div class="card">
+                    <h3>Abertura de CNPJ Grátis</h3>
+                    <p>Cuidamos de toda a burocracia para abrir a sua SLU de TI sem cobrar honorários de abertura.</p>
+                </div>
+                <div class="card">
+                    <h3>Atendimento 100% Online</h3>
+                    <p>Suporte rápido diretamente pelo WhatsApp para resolver sua contabilidade sem complicações.</p>
+                </div>
             </div>
-            <a href="https://wa.me/5562996906707?text=Olá!%20Acessei%20o%20site%20da%20Krivo%20e%20gostaria%20de%20uma%20consultoria%20contábil%20para%20o%20meu%20caso." target="_blank" class="btn-sm">Falar com Especialista</a>
         </div>
-        <div class="card">
-            <div>
-                <h3>Infoprodutores e Afiliados</h3>
-                <p>Se você vende cursos, mentorias ou e-books nas plataformas Hotmart, Kiwify ou Eduzz, nós estruturamos a sua transição segura da Pessoa Física para o CNPJ, emitindo notas fiscais de forma automatizada.</p>
-            </div>
-            <a href="https://wa.me/5562996906707?text=Olá!%20Acessei%20o%20site%20da%20Krivo%20e%20gostaria%20de%20uma%20consultoria%20contábil%20para%20o%20meu%20caso." target="_blank" class="btn-sm">Falar com Especialista</a>
-        </div>
-        <div class="card">
-            <div>
-                <h3>Saúde Digital</h3>
-                <p>Psicólogos e nutricionistas com atendimento online. Fazemos a gestão completa e segura do seu Carnê-Leão mensal ou estruturamos sua transição para uma SLU, reduzindo legalmente a sua carga tributária.</p>
-            </div>
-            <a href="https://wa.me/5562996906707?text=Olá!%20Acessei%20o%20site%20da%20Krivo%20e%20gostaria%20de%20uma%20consultoria%20contábil%20para%20o%20meu%20caso." target="_blank" class="btn-sm">Falar com Especialista</a>
-        </div>
-    </div>
-
-    <!-- SOBRE O PROJETO -->
-    <section class="about">
-        <h2 class="section-title" style="margin-top: 0;">Sobre a Krivo</h2>
-        <p>A Krivo Contabilidade Digital nasceu com o propósito de passar a sua vida fiscal "pelo crivo" da legalidade e da máxima economia de impostos. Aliando a segurança jurídica tradicional a processos modernos 100% em nuvem, eliminamos as barreiras geográficas para atender seu negócio onde quer que você esteja.</p>
     </section>
 
-    <!-- RODAPÉ COMPLIANCE GOOGLE ADS -->
     <footer>
-        <p><strong>Krivo Contabilidade Digital</strong></p>
-        <p>Pedro Tiago Corrêa Faria | Contador Autônomo - CRC-GO nº 027770/O</p>
-        <p>Goiânia - GO | Atendimento Digital para todo o Brasil.</p>
-        <p style="color: #64748B; font-size: 0.8rem; margin-top: 15px;">Este site é protegido e preza pela total privacidade dos seus dados em estrita conformidade com a LGPD. Atendimento prestado de forma remota.</p>
+        <div class="container">
+            <p>Krivo Contabilidade Digital © 2026 - CRC-GO 027770/O</p>
+        </div>
     </footer>
 
 </body>
