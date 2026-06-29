@@ -1,62 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krivo Contabilidade Digital | Especialista em TI</title>
+    
+    <!-- Google Tag (gtag.js) - Global Site Tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18284669367"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'AW-18284669367');
     </script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krivo Contabilidade Digital</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --primary: #0F172A;
+            --accent: #2563EB;
+            --text: #334155;
+            --bg: #F8FAFC;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-box {
+            display: flex;
+            align-items: center;
+        }
+        .logo-box img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+        .hero {
+            max-width: 1200px;
+            margin: 120px auto 60px auto;
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem auto;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto 4rem auto;
+            padding: 0 2rem;
+        }
+        .card {
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            border: 1px solid #E2E8F0;
+            text-align: center;
+        }
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+            transition: transform 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+        .cta-button:hover {
+            transform: scale(1.03);
+        }
+        footer {
+            background-color: var(--primary);
+            color: #94A3B8;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <div class="container">
-            <img src="watermarked_img_14360406489538663535.png" alt="Krivo Contabilidade" class="logo">
+        <div class="nav-container">
+            <div class="logo-box">
+                <!-- Tag corrigida buscando o arquivo logo.png no seu GitHub -->
+                <img src="logo.png" alt="Krivo Contabilidade Digital">
+            </div>
+            <div>
+                <a href="https://wa.me/5562996906707" class="cta-button track-conversion" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;" target="_blank">Falar com Contador</a>
+            </div>
         </div>
     </header>
 
     <section class="hero">
-        <div class="container">
-            <h1>Contabilidade Digital Especializada para Profissionais de TI</h1>
-            <p>Abra seu CNPJ totalmente grátis, reduza seus impostos com o Fator R e tenha o suporte de specialists no mercado Tech.</p>
-            <a href="https://wa.me/5562996906707" class="btn-whatsapp" target="_blank">Falar com Especialista no WhatsApp</a>
-        </div>
+        <h1>Contabilidade Digital Descomplicada para Profissionais de TI</h1>
+        <p>Abra sua empresa sem burocracia, economize impostos com o Fator R de forma legal e tenha o suporte de quem entende o mercado de tecnologia.</p>
+        <a href="https://wa.me/5562996906707" class="cta-button track-conversion" target="_blank">Falar no WhatsApp Especializado</a>
     </section>
 
-    <section class="servicos">
-        <div class="container">
-            <h2>Por que escolher a Krivo?</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Redução de Impostos</h3>
-                    <p>Planejamento focado no Fator R para você pagar a partir de apenas 6% de imposto no Simples Nacional.</p>
-                </div>
-                <div class="card">
-                    <h3>Abertura de CNPJ Grátis</h3>
-                    <p>Cuidamos de toda a burocracia para abrir a sua SLU de TI sem cobrar honorários de abertura.</p>
-                </div>
-                <div class="card">
-                    <h3>Atendimento 100% Online</h3>
-                    <p>Suporte rápido diretamente pelo WhatsApp para resolver sua contabilidade sem complicações.</p>
-                </div>
-            </div>
+    <section class="features">
+        <div class="card">
+            <h3>Fator R Estratégico</h3>
+            <p>Reduza sua alíquota de imposto de 15,5% para apenas 6% no Simples Nacional de forma totalmente legal.</p>
+        </div>
+        <div class="card">
+            <h3>Abertura de CNPJ Grátis</h3>
+            <p>Nós cuidamos de toda a burocracia para abrir sua SLU ou LTDA sem cobrar honorários de abertura.</p>
+        </div>
+        <div class="card">
+            <h3>Atendimento Dev to Dev</h3>
+            <p>Esqueça os termos contábeis difíceis. Atendimento rápido, online e direto focado na sua rotina de tecnologia.</p>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>Krivo Contabilidade Digital © 2026 - CRC-GO 027770/O</p>
-        </div>
+        <p>Krivo Contabilidade Digital © 2026 - Todos os direitos reservados.</p>
+        <p style="font-size: 0.8rem; margin-top: 0.5rem;">Pedro Tiago Corrêa Faria (CRC-GO 027770/O)</p>
     </footer>
+
+    <!-- Script de Rastreamento Dinâmico de Cliques do Google Ads -->
+    <script>
+        document.querySelectorAll('.track-conversion').forEach(function(button) {
+            button.addEventListener('click', function() {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-18284669367/CqYSCOLB1MccELfT545E',
+                    'value': 1.0,
+                    'currency': 'BRL'
+                });
+            });
+        });
+    </script>
 
 </body>
 </html>
